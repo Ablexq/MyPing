@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dailog_back"
+    android:padding="15dp">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:indeterminateDrawable="@drawable/progress_drawable_white"/>
+
+</RelativeLayout>

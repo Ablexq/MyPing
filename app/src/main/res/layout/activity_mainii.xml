@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="软键盘开关"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启软键盘"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭软键盘"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="number|numberDecimal"
+        android:maxLength="4"
+        android:selectAllOnFocus="true"
+        android:textColor="#333333"
+        android:textSize="15sp" />
+
+</LinearLayout>
